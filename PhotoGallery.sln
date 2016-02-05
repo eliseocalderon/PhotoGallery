@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EDC96DAB-239D-449F-8CE1-2A8CB64F67C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1DA5A69-20C6-43C9-9E69-7E1C336005E0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PhotoGallery", "src\PhotoGallery\PhotoGallery.xproj", "{FA5F7E68-703A-4EBE-8ECC-1F8CEAB10195}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA5F7E68-703A-4EBE-8ECC-1F8CEAB10195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5F7E68-703A-4EBE-8ECC-1F8CEAB10195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5F7E68-703A-4EBE-8ECC-1F8CEAB10195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5F7E68-703A-4EBE-8ECC-1F8CEAB10195}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA5F7E68-703A-4EBE-8ECC-1F8CEAB10195} = {EDC96DAB-239D-449F-8CE1-2A8CB64F67C8}
+	EndGlobalSection
+EndGlobal
